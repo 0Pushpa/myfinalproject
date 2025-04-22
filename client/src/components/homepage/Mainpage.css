@@ -1,0 +1,131 @@
+@import "../../assets/css/bootstrap.min.css";
+@import "../../assets/css/default.css";
+@import "../../assets/css/LineIcons.css";
+@import "../../assets/css/magnific-popup.css";
+@import "../../assets/css/slick.css";
+@import "../../assets/css/style.css";
+/* @import "../../assets/css/style.css.map"; */
+
+.navbar-main {
+  border: 2px solid red;
+}
+.navbar-area {
+  position: fixed !important;
+  overflow: hidden !important;
+  /* background-color: #64c1bf !important; */
+  /* 2cb0d9 */
+  background: #5dc4e6a6 !important;
+  height: 85px;
+}
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.features-icon {
+  flex: 1;
+}
+.features-content {
+  text-align: center;
+}
+.features-icon img {
+  max-width: 100%;
+  height: 124px;
+  object-fit: contain;
+}
+.rounded-one {
+  color: #15cfbe !important;
+}
+#main-carousel {
+  position: relative;
+  height: 100vh;
+  /* background-color: #64c1bf !important; */
+  background: #18a6d4a6;
+}
+
+.slider_area {
+  height: 97vh !important;
+}
+.features-title a {
+  color: #565656;
+}
+.features-content a {
+  color: #64c1bf !important;
+}
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+  box-sizing: border-box;
+  height: 56px;
+  padding: 10px 5px;
+  position: absolute;
+  right: 50%;
+  top: 56%;
+  /* border: 2px solid red; */
+  margin-top: -65px;
+  width: 747px;
+  display: none;
+  /* border: 2px solid red; */
+}
+.alice-carousel__prev-btn-wrapper span {
+  font-size: 33px;
+}
+.alice-carousel__prev-btn-item.__inactive,
+.alice-carousel__next-btn-item.__inactive {
+  position: absolute;
+  left: 192%;
+  font-size: 37px;
+  color: #465798;
+  display: none !important;
+}
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn-item {
+  color: #465798;
+  position: absolute;
+  left: 30px;
+  display: none !important;
+}
+
+.alice-carousel__dots {
+  margin: 8px 3px 5px;
+}
+.carousel-indicators {
+  display: none;
+}
+.alice-carousel__dots {
+  margin: 7px 3px 5px;
+}
+.features-area {
+  margin-top: 14px !important;
+}
+.hidegroup {
+  height: 0px;
+}
+.showgroup {
+  height: 100px;
+  overflow: auto;
+  /* border: 2px solid red; */
+}
+.faq-card {
+  display: flex;
+}
+.faq1 {
+  flex: 2;
+}
+.faq2 {
+  flex: 1;
+  margin-top: 40px;
+}
+.faq-image {
+  margin-left: 129px;
+}
+.carousel-inner .alice-carousel__dots {
+  position: absolute;
+  top: 95%;
+  width: 100%;
+}

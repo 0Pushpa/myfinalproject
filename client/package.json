@@ -1,0 +1,78 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@hookform/resolvers": "^5.0.1",
+    "@mui/icons-material": "^7.0.1",
+    "@mui/material": "^7.0.1",
+    "@mui/styles": "^6.4.10",
+    "@pathofdev/react-tag-input": "^1.0.7",
+    "@redux-devtools/extension": "^3.3.0",
+    "@reduxjs/toolkit": "^2.6.1",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "axios": "^1.8.4",
+    "bootstrap": "^5.3.5",
+    "buffer": "^6.0.3",
+    "gsap": "^3.12.7",
+    "jwt-decode": "^4.0.0",
+    "moment": "^2.30.1",
+    "process": "^0.11.10",
+    "react": "^19.1.0",
+    "react-alice-carousel": "^2.9.1",
+    "react-bootstrap": "^2.10.9",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^19.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-hook-form": "^7.55.0",
+    "react-icons": "^5.5.0",
+    "react-input-emoji": "^5.9.0",
+    "react-notifications-component": "^4.0.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.4.1",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.5",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "sass-loader": "^13.3.3",
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.8.1",
+    "styled-components": "^6.1.17",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "remotedev": "^0.2.9",
+    "sass": "^1.86.3"
+  }
+}

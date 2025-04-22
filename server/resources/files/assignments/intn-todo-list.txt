@@ -1,0 +1,32 @@
+1) Vendor profile page color settings   (pushpa)
+  radio - default 
+          custom -> primary & sec input field for hex
+
+2) Catalog menu margin-left           (aman) (done)
+   -Last menu item l-r margins        
+  
+3) Qty counter btn with border radius (aman) (done)
+
+4) Custom scroll bar from flex-end  (aman)
+
+5) Primary and secondary color for everything  (pushpa) (done)
+
+6) Back instead goback (aman) (done)
+
+7) Show menu only on recent response (aman)
+
+8) Arrows instead of hawa icons (aman) (done)
+
+9) Price in USD (price/100) (pushpa) (aman) (done)
+
+10) Disable button if no qty added incld minus button, add order (pushpa)
+
+11) Active & inactive Categories should diff (aman) (done)
+
+12) Order details id's text color and should be right aligned (pushpa) (done)
+
+13) Bolder grand total (pushpa) (done)
+
+14) Home button in vendor portal, hammenu should be in last (aman) (done)
+
+15) 

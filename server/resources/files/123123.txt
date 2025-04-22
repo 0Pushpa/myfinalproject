@@ -1,0 +1,6 @@
+join-room
+all users
+ -> createPeer()
+      -> signal
+      -> sending signal
+ -> user joined 

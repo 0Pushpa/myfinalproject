@@ -1,0 +1,57 @@
+/* Define CSS custom properties (variables) for colors */
+:root {
+  --primaryC: #14adde; /* Replaced $primaryC */
+  --primaryCdark: #048fbd; /* Replaced $primaryCdark */
+  --primaryClight: #40cdfc; /* Replaced $primaryClight */
+}
+
+/* Media query for small devices (max-width: 430px) */
+@media only screen and (max-width: 430px) {
+  .frontend-sidebar {
+    display: none;
+  }
+  .paper__paper {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+  }
+  svg {
+    font-size: 1.3rem;
+    /* Uncomment if needed: color: var(--primaryC); */
+  }
+  .MuiBottomNavigationAction-root.Mui-selected {
+    color: #048fbd; /* Replaced $primaryCdark with its value */
+  }
+  .MuiBottomNavigationAction-wrapper:hover {
+    border-radius: 10px;
+  }
+}
+
+/* Media query for small devices (431px - 768px) */
+@media only screen and (min-width: 431px) and (max-width: 768px) {
+  .paper__paper {
+    display: none;
+  }
+}
+
+/* Media query for medium devices (768px - 992px) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .paper__paper {
+    display: none;
+  }
+}
+
+/* Media query for large devices (992px - 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .paper__paper {
+    display: none;
+  }
+}
+
+/* Media query for extra-large devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .paper__paper {
+    display: none;
+  }
+}
